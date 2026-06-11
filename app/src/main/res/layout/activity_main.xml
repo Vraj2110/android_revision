@@ -15,7 +15,7 @@
         android:fontFamily="monospace"
         android:text="Hello World!"
         android:textColor="#F00000"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
