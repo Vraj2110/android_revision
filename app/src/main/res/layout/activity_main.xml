@@ -37,6 +37,25 @@
         android:layout_marginLeft="110dp"
         android:background="@color/black"/>
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
 
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/welcome"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vraj"
+            android:textSize="30dp"
+            android:layout_toEndOf="@id/img1"
+            android:layout_marginLeft="70dp"/>
+    </RelativeLayout>
 </LinearLayout>
