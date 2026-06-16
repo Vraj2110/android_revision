@@ -10,10 +10,9 @@
         android:id="@+id/etext1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter Task Name"
+        android:hint="Enter Task "
         android:textColorHint="@color/black"
         android:textSize="20dp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/radiogroup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,13 +34,14 @@
             android:id="@+id/txt1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
             android:text="Choose difficulty level" />
 
         <RadioButton
             android:id="@+id/r1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="High" />
+            android:text="Low" />
 
         <RadioButton
             android:id="@+id/r2"
